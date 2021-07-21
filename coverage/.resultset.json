@@ -10,6 +10,7 @@
           1,
           1,
           1,
+          1,
           null,
           null,
           null
@@ -18,12 +19,27 @@
       "/Users/maggiehibberd/card_game/lib/deck.rb": {
         "lines": [
           1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          4,
+          52,
+          null,
+          null,
+          null,
           null,
           1,
+          2,
+          104,
+          null,
+          null,
+          null,
           null
         ]
       }
     },
-    "timestamp": 1626877675
+    "timestamp": 1626880081
   }
 }
