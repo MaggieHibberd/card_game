@@ -12,8 +12,21 @@ end
 
   def check_deck
     FULL_DECK.each do |card|
-        card
+      card
     end
   end
+
+  def shuffle
+    FULL_DECK.shuffle!
+  end 
+
+  def deal 
+    if FULL_DECK.empty?
+        nil
+    else
+       FULL_DECK.shift
+    end
+  end
+
 end
 
