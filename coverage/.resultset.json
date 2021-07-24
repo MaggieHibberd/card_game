@@ -1,6 +1,31 @@
 {
   "RSpec": {
     "coverage": {
+      "/Users/maggiehibberd/card_game/spec/card_spec.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null,
+          null
+        ]
+      },
+      "/Users/maggiehibberd/card_game/lib/card.rb": {
+        "lines": [
+          1,
+          1,
+          null,
+          1,
+          1,
+          null,
+          null
+        ]
+      },
       "/Users/maggiehibberd/card_game/spec/deck_spec.rb": {
         "lines": [
           1,
@@ -59,11 +84,10 @@
           null,
           null,
           null,
-          null,
           null
         ]
       }
     },
-    "timestamp": 1627126228
+    "timestamp": 1627127232
   }
 }

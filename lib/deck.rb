@@ -22,11 +22,10 @@ end
 
   def deal 
     if FULL_DECK.empty?
-        nil
+      nil
     else
-       FULL_DECK.shift
+      FULL_DECK.shift
     end
   end
-
 end
 
