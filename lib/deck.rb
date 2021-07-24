@@ -24,7 +24,7 @@ end
     if FULL_DECK.empty?
       nil
     else
-      FULL_DECK.shift
+      Card.new(FULL_DECK.shift)
     end
   end
 end
