@@ -8,8 +8,14 @@ describe Player do
   end
   it 'is a player with a hand of cards' do
     player = Player.new('Kaito')
-    expect(player.hand).to eq [] 
+    expect(player.hand).to eq []
   end
-end 
+  it 'the player is able to request a card' do
+    deck = instance_double('deck', deal: 'A of Spades')
+    player = Player.new('Kaito')
+    player.request_card(deck)
+    expect(player.hand).to eq ['A of Spades']
+  end 
+end
 end
   

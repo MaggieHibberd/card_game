@@ -5,4 +5,8 @@ class Player
     @name = name
     @hand = hand
   end
+
+  def request_card(a_deck)
+    @hand << a_deck.deal
+  end
 end
