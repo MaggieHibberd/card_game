@@ -88,8 +88,33 @@
           null,
           null
         ]
+      },
+      "/Users/maggiehibberd/card_game/spec/player_spec.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "/Users/maggiehibberd/card_game/lib/player.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          1,
+          null,
+          null
+        ]
       }
     },
-    "timestamp": 1627128305
+    "timestamp": 1627128913
   }
 }
