@@ -9,4 +9,9 @@ class Player
   def request_card(a_deck)
     @hand << a_deck.deal
   end
-end
+
+  def view_player_and_hand
+    return "#{name } has: #{@hand.join(", ")}"
+    end
+  end
+
