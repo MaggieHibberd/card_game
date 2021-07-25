@@ -6,6 +6,8 @@ class Game
   def name_players
     return "The players are: " + @player.join(", ")
   end
+
+  def shuffle_cards(a_deck)
+    a_deck.shuffle
+  end
 end
-
-
