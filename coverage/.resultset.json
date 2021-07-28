@@ -1,7 +1,7 @@
 {
   "RSpec": {
     "coverage": {
-      "/Users/maggiehibberd/card_game/spec/features.rb/card_spec.rb": {
+      "/Users/maggiehibberd/card_game/spec/card_spec.rb": {
         "lines": [
           1,
           1,
@@ -63,7 +63,7 @@
           null
         ]
       },
-      "/Users/maggiehibberd/card_game/spec/features.rb/deck_spec.rb": {
+      "/Users/maggiehibberd/card_game/spec/deck_spec.rb": {
         "lines": [
           1,
           null,
@@ -102,13 +102,14 @@
           1,
           1,
           1,
+          1,
+          1,
           null,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
+          null,
+          null,
+          null,
+          null,
+          null,
           null,
           null,
           null,
@@ -119,15 +120,17 @@
         "lines": [
           1,
           1,
-          2,
+          1,
+          1,
+          1,
+          1,
+          1,
           null,
           null,
           1,
-          1,
+          0,
           null,
           null,
-          1,
-          1,
           null,
           null
         ]
@@ -135,25 +138,14 @@
       "/Users/maggiehibberd/card_game/lib/player.rb": {
         "lines": [
           1,
-          1,
-          null,
-          1,
-          7,
-          7,
-          null,
-          null,
-          1,
-          2,
-          null,
           null,
           1,
           1,
-          null,
           null,
           null
         ]
       },
-      "/Users/maggiehibberd/card_game/spec/features.rb/player_spec.rb": {
+      "/Users/maggiehibberd/card_game/spec/player_spec.rb": {
         "lines": [
           1,
           null,
@@ -163,28 +155,11 @@
           1,
           1,
           null,
-          1,
-          1,
-          1,
-          null,
-          1,
-          1,
-          1,
-          1,
-          1,
-          null,
-          1,
-          1,
-          1,
-          1,
-          1,
-          null,
-          null,
           null,
           null
         ]
       }
     },
-    "timestamp": 1627414310
+    "timestamp": 1627465395
   }
 }

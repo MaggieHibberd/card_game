@@ -1,13 +1,15 @@
 class Game
-  def initialize(*player)
+  def initialize(player, deck, card)
     @player = player
+    @player_list = []
+    @deck = Deck.new
+    @hand = []
+    @card = card
   end
 
-  def name_players
-    return "The players are: " + @player.join(", ")
+  def add_players(number)
+    number.times { @player_list.push(@player.new) }
   end
 
-  def shuffle_cards(a_deck)
-    a_deck.shuffle
-  end
+
 end
